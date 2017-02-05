@@ -1,8 +1,5 @@
 <?php
-/*$h='mysql.idhostinger.com';
-$u='u771251487_dl';
-$p='download-wahyudev';
-$db='u771251487_dl'; */
+
 $h='localhost';
 $u='root';
 $p='';

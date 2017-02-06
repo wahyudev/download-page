@@ -1,8 +1,8 @@
 <?php
 
-$h='localhost';
-$u='root';
-$p='';
-$db='download';
+$h='mysql.idhostinger.com';
+$u='u617774943_dl';
+$p='download-wahyudev';
+$db='u617774943_dl';
 mysqli_connect($h,$u,$p) or die('gagal konek');
 mysql_select_db($db) or die('eror db');

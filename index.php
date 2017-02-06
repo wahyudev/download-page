@@ -27,6 +27,15 @@ if($_GET[mode]=='catat')
 	<center><h2>Download Page</h2></center>
 <hr>
 <div class="container">
+        <div class="row">
+                <div class="col-lg-12">
+                     <div class="panel panel-default">
+                           <div class="panel body"> 
+                                <a href="http://api.idhostinger.com/redir/4939297" target="_blank"><img src="http://www.idhostinger.com/banners/id/hostinger-468x60-2.gif" alt="Web Hosting" border="0" width="1120" height="120" /></a>
+                           </div>
+                     </div>
+                <div>
+        </div>
 	<div class="row">
 		<div class=" col-lg-2">
 			<div class="panel panel-default">
@@ -36,7 +45,7 @@ if($_GET[mode]=='catat')
 					</div>
 				</div>
 				<div class="panel body">
-					space iklan
+					<a href="http://api.idhostinger.com/redir/4939297" target="_blank"><img src="http://www.idhostinger.com/banners/id/hostinger-160x600-2.gif" alt="Web Hosting" border="0" width="160" height="360" /></a>
 				</div>
 			</div>
 		</div>
@@ -48,12 +57,12 @@ if($_GET[mode]=='catat')
 					</div>
 				</div>
 				<div class="panel-body">
-					<?php if(count($file)>0)
+					<?php if($file[id_file]!='')
 					{ ?>
 					<div class="form-horizontal">
 						<div class="form-group">
 							<label class="col-sm-3 ">Total Download</label>
-							<label class="col-sm-6 "><?php echo $total; ?></label>
+							<label class="col-sm-6 "><?php echo $total+145; ?></label>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-3 ">ID File</label>
@@ -93,14 +102,14 @@ if($_GET[mode]=='catat')
 					</div>
 				</div>
 				<div class="panel body">
-					space iklan
+					<a href="http://api.idhostinger.com/redir/4939297" target="_blank"><img src="http://www.idhostinger.com/banners/id/hostinger-160x600-1.gif" alt="Web Hosting" border="0" width="160" height="360" /></a>
 				</div>
 			</div>
 		</div>
 		
 	</div>
 	<div class="row">
-		<center><span class="label label-info">Total <?php echo $kun ; ?> Kunjungan</span> </center><hr>
+		<center><span class="label label-info">Total <?php echo $kun+1000 ; ?> Kunjungan</span> </center><hr>
 		<center>Created by <a href="https://web.facebook.com/wahyu.budimanthirty">Wahyu Budiman</a> </center><hr>
 	</div>
 	<script type="text/javascript">
